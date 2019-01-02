@@ -1,0 +1,23 @@
+.body{
+  background-image: url("../../assets/images/cover.jpg");
+  background-size: cover;
+  height: 92.7vh;
+  width: 101vw;
+  font-family: Agency FB;
+}
+.heading{
+  margin-top: 6%;
+  width: 101vw;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 1.5vw;
+  word-spacing: 1.5vw;
+}
+.sign{
+  margin-left: 17%;
+  margin-top: 7%;
+  height: 40vh;
+  width: 50vw;
+  transform: skewY(-5deg);
+}

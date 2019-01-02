@@ -1,0 +1,18 @@
+
+.my-nav-item{
+  background-color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  left: 20px;
+  color: gray;
+  cursor: pointer;
+  font-family: Agency FB;
+  font-weight: bold;
+}
+.selected-item{
+  background-color: black;
+  color: white;
+}
+.selected-item i{
+  color: red;
+}

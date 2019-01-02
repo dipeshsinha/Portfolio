@@ -1,0 +1,38 @@
+<head>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+</head>
+
+<div class="row" style="background-color: black;width: 101vw;top: 2%;right: 2%;">
+  <div class="col-lg-2 col-auto my-nav-item"
+       [ngClass]="{'selected-item': current === 'home'}"
+       (click)="homeClick()">
+    HOME
+    <br><i class="fas fa-grip-lines"></i>
+  </div>
+  <div class="col-lg-2 col-auto my-nav-item"
+       [ngClass]="{'selected-item': current === 'skills'}"
+       (click)="skillsClick()">
+    SKILLS
+    <br><i class="fas fa-grip-lines"></i>
+  </div>
+  <div class="col-lg-2 col-auto my-nav-item"
+       [ngClass]="{'selected-item': current === 'about'}"
+       (click)="aboutClick()">
+    ABOUT
+    <br><i class="fas fa-grip-lines"></i>
+  </div>
+  <div class="col-lg-2 col-auto my-nav-item"
+       [ngClass]="{'selected-item': current === 'projects'}"
+       (click)="projectsClick()">
+    PROJECTS
+    <br><i class="fas fa-grip-lines"></i>
+  </div>
+  <div class="col-lg-2 col-auto my-nav-item"
+       [ngClass]="{'selected-item': current === 'contact'}"
+       (click)="contactClick()">
+    CONTACT
+    <br><i class="fas fa-grip-lines"></i>
+  </div>
+</div>
+
+<router-outlet></router-outlet>
