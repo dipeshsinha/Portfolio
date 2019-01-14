@@ -23,6 +23,7 @@ export class AppComponent {
   }
   public contactClick() {
     this.current = 'contact';
+    this.router.navigate(['contact']);
   }
   public skillsClick() {
     this.current = 'skills';

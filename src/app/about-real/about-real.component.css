@@ -48,13 +48,13 @@ div {
   margin-bottom: calc(-100vh + 10px);
 }
 .card1{
-  background-image: url("../../assets/images/web-dev2.jpg");
+  background-image: url("../../assets/images/training.jpeg");
 }
 .card2{
   background-image: url("../../assets/images/data-science.jpeg");
 }
 .card3{
-  background-image: url("../../assets/images/education.jpeg");
+  background-image: url("../../assets/images/guitar.jpeg");
 }
 @-webkit-keyframes key1 {
   0% {filter: grayscale(0);color: white}
