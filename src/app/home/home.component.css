@@ -18,6 +18,10 @@
   margin-left: 17%;
   margin-top: 7%;
   height: 40vh;
-  width: 50vw;
+  width: 55vw;
   transform: skewY(-5deg);
+}
+.sign2{
+  background-image: url("../../assets/images/signfinal.png");
+  background-size: cover;
 }
